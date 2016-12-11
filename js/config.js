@@ -13,13 +13,13 @@ var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "sleekLoad 2";
+var l_serverName = "";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = false;
+var l_bgVideo = true;
 
-/*Video background
+*Video background
 Avaiable options:
 "backgrounds/videos/aurora.webm"
 "backgrounds/videos/bluefall.webm"
