@@ -21,26 +21,9 @@ var l_bgVideo = true;
 
 *Video background
 Avaiable options:
-"backgrounds/videos/aurora.webm"
-"backgrounds/videos/bluefall.webm"
-"backgrounds/videos/bluetilefloor.webm"
-"backgrounds/videos/bluewhitecircles.webm"
-"backgrounds/videos/bokehlens.webm"
-"backgrounds/videos/cleanbokeh.webm"
-"backgrounds/videos/coldnight.webm"
-"backgrounds/videos/colorfulburst.webm"
-"backgrounds/videos/dancingstars.webm"
-"backgrounds/videos/dropsflares.webm"
-"backgrounds/videos/focusorangebokeh.webm"
+
 "backgrounds/videos/glimmering.webm"
-"backgrounds/videos/glowingrings.webm"
-"backgrounds/videos/greencircles.webm"
-"backgrounds/videos/hues.webm"
-"backgrounds/videos/inthedeep.webm"
-"backgrounds/videos/modernflourish.webm"
-"backgrounds/videos/orangeaura.webm"
-"backgrounds/videos/warminside.webm"
-"backgrounds/videos/yellowgreen.webm"
+
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
@@ -50,9 +33,7 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+
 ];
 
 /*Random background images order?*/
@@ -85,10 +66,9 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
-	{youtube: "SEBUD_4T9XA", name: "どぶウサギ - 秋に舞う椛と滝飛沫"},
-	{youtube: "zA6wRutN_7Q", name: "Suwa-cafeteria"},
-	{youtube: "KtlKbE4qU0c", name: "月の妖鳥、化猫の幻"}
+	{ogg: "songs/Defqwop_-_Heart_Afire_feat.ogg", name: "Defqwop - Heart Afire"},
+	{youtube: "L9r-aOQb3XM", name: "Load in Music"},
+
 ];
 
 /*Random music order?*/
