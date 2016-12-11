@@ -19,9 +19,8 @@ var l_serverName = "";
 Otherwise it will just use images*/
 var l_bgVideo = true;
 
-*Video background
+/*Video background
 Avaiable options:
-
 "backgrounds/videos/glimmering.webm"
 
 
@@ -37,7 +36,7 @@ var l_bgImages = [
 ];
 
 /*Random background images order?*/
-var l_bgImagesRandom = true;
+var l_bgImagesRandom = false;
 
 /*(Image-background only)
 Delay between background images changes
@@ -50,7 +49,7 @@ in milliseconds*/
 var l_bgImageFadeVelocity = 2000;
 
 /*Enable background overlay?*/
-var l_bgOverlay = true;
+var l_bgOverlay = false;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
@@ -72,7 +71,7 @@ var l_musicPlaylist = [
 ];
 
 /*Random music order?*/
-var l_musicRandom = true;
+var l_musicRandom = false;
 
 /*Music volume
 Choose a value between 0 and 100*/
